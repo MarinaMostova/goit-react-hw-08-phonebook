@@ -8,11 +8,11 @@
   text-decoration: none;
   font-size: 25px;
 }
+
 .active {
   composes: link__auth;
   color: #f0635e;
 }
-
 
 .link__auth:hover,
 .link__auth:focus {
