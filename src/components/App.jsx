@@ -5,6 +5,7 @@ import { selectAuth } from 'redux/auth/selectors';
 import { refreshUser } from 'redux/auth/authOperations';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+
 import AppBar from './AppBar';
 import PrivateRoute from './Routes/PrivateRoute';
 import PublicRoute from './Routes/PublicRoute';
