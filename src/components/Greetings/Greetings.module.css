@@ -1,0 +1,46 @@
+.greetings {
+  margin-top: 60px;
+}
+.text {
+  margin: 0 auto 30px auto;
+  font-size: 46px;
+  color: #f5f5f5;
+  text-align: center;
+  padding: 0px 0 30px 0;
+  max-width: 550px;
+  font-style: italic;
+
+}
+
+
+.link__container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.link {
+  padding: 8px 15px;
+  font-size: 24px;
+  color:#f5f5f5;
+  cursor: pointer;
+}
+
+.link:hover {
+  color: #f0635e;
+}
+
+.text__container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  align-items: center;
+}
+
+.auth__container {
+  margin: 0 auto;
+  max-width: 500px;
+  text-align: center;
+}
+
+

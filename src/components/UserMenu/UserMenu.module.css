@@ -1,0 +1,47 @@
+.link__contacts {
+  color: #f5f5f5;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.active__contacts {
+  composes: link__contacts;
+  color: #f0635e;
+}
+
+.user__menu {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.link__contacts:hover,
+.link__contacts:focus {
+  color: #f0635e;
+}
+
+.name {
+  color: #f5f5f5;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.button {
+  display: block;
+  padding: 8px 10px;
+  border-radius: 5px;
+  background-color: #f0635e;
+  color: #f5f5f5;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button:hover {
+  background-color: #ed1a12;
+}
+
+
